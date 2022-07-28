@@ -2,11 +2,11 @@ const GoogleStrategy =  require('passport-google-oauth20').Strategy;
 const GitHubStrategy = require('passport-github2').Strategy;
 const passport = require('passport');
 
-const GOOGLE_CLIENT_ID = "412880371756-ui7ebbbtkdm7t27qh2edggl14q59slv7.apps.googleusercontent.com";
-const GOOGLE_CLIENT_SECRET = "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";
+const GOOGLE_CLIENT_ID = "provide_your_client_id";
+const GOOGLE_CLIENT_SECRET = "provide_your_secret_key";
 
-const GITHUB_CLIENT_ID = "7e319c61d02ecff3b178";
-const GITHUB_CLIENT_SECRET = "3c5ac345e5a0e55158a6090904e669f26fc88a58";
+const GITHUB_CLIENT_ID = "provide_your_client_id";
+const GITHUB_CLIENT_SECRET = "provide_your_secret_key";
 
 passport.use(new GoogleStrategy({
     clientID: GOOGLE_CLIENT_ID,
